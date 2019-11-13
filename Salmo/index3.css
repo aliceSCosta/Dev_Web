@@ -1,0 +1,9 @@
+@charset "utf-8";
+
+#principal{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+main{width: 60%;}
+aside{width: 20%;}
