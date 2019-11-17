@@ -1,0 +1,48 @@
+.borda{
+    display: inline-block;
+    padding: 47px;
+    background-image:
+     url(images/70_01.png),
+     url(images/70_03.png),
+     url(images/70_07.png),
+     url(images/70_09.png)
+     url(images/70_02.png),
+     url(images/70_04.png),
+     url(images/70_06.png),
+     url(images/70_08.png),
+     url(images/70_05.png);
+    
+    background-repeat:
+     no-repeat,
+     no-repeat,
+     no-repeat,
+     no-repeat,
+     repeat-x,
+     repeat-y,
+     repeat-y,
+     repeat-x,
+     repeat-x;
+
+    background-position-x:
+     left,
+     right,
+     left,
+     right,
+     center,
+     left,
+     right,
+     center,
+     center;
+    
+    background-position-y:
+     top,
+     top,
+     bottom,
+     bottom,
+     top,
+     bottom,
+     bottom,
+     bottom,
+     center ;
+
+}
