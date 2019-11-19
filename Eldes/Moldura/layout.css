@@ -1,48 +1,52 @@
-.borda{
+img{
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 100px;
+}
+.moldura{
     display: inline-block;
-    padding: 50px;
+    padding-left: 87px;
+    padding-top: 86px;
+    padding-bottom: 86px;
+    padding-right: 87px;
     background-image:
      url(images/70_01.png),
      url(images/70_03.png),
-     url(images/70_07.png),
-     url(images/70_09.png)
      url(images/70_02.png),
-     url(images/70_04.png),
-     url(images/70_06.png),
+     url(images/70_07.png),
+     url(images/70_09.png),
      url(images/70_08.png),
-     url(images/70_05.png);
+     url(images/70_04.png),
+     url(images/70_06.png);
     
     background-repeat:
      no-repeat,
      no-repeat,
+     repeat-x,
      no-repeat,
      no-repeat,
      repeat-x,
      repeat-y,
-     repeat-y,
-     repeat-x,
-     repeat-x;
+     repeat-y;
 
     background-position-x:
      left,
      right,
-     left,
-     right,
      center,
      left,
      right,
      center,
-     center;
+     left,
+     right;
     
     background-position-y:
      top,
      top,
-     bottom,
-     bottom,
      top,
      bottom,
      bottom,
      bottom,
-     center ;
+     center,
+     center;
 
 }
