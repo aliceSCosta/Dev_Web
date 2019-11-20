@@ -11,6 +11,13 @@ footer{
     background: rgb(255, 0, 98);
 }
 
-nav{ background: rgb(187, 255, 0);}
+header{
+    padding: 10px;
+}
+
+nav{ 
+    display: none;
+    background-color: rgb(57, 13, 202);
+}
 main{ background: indigo;}
-aside{ background: lightseagreen;}
+aside{ display: none; }
