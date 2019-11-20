@@ -1,0 +1,10 @@
+@charset "utf-8";
+
+#logo{
+    width: 100%;
+}
+
+#menu{
+    background-position-x: right;
+    background-position-y: top;
+}
