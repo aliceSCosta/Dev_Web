@@ -13,7 +13,7 @@
     <title>Cadastro</title>
 </head>
 <body>
-    <form action="insert.php" method='post'>
+    <form action="insert.php" method='post' enctype=multipart/form-data>
         <div>
             <label for="nome">Nome: </label>
             <input type="text" name='nome' id='nome'>
