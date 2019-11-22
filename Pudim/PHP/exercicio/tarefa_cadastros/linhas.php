@@ -8,7 +8,7 @@
                 echo "<td>" . "<img class= 'img-fluid' src=" . $linha['foto'] .">" . "</td>";
                 echo "<td><a href= 'formupdate.php?id=" . $linha['id'] . "'>Editar</a> | ";
                 echo "<a href='delete.php?id=" . $linha['id'] . "'>Apagar</a></td>";
-                echo "</tr>";
+            echo "</tr>";
         }
     }
 
