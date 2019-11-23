@@ -27,10 +27,8 @@
     //$mail->addBCC('outroemail@gmail.com'); cópia oculta
 
     $mail->isHTML(true);
-    $mail->Subject='Assunto do email';
-    $mail->Body='<h1>Conteúdo do email</h1>
-    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repudiandae rem animi facere illo assumenda, perferendis, deleniti quo laboriosam debitis quos quod nemo 
-    voluptatibus. Consequatur, minus ipsa maxime dignissimos velit voluptatum?</p>';
+    $mail->Subject=$assunto;
+    $mail->Body=$corpo;
     $mail->addAttachment('./img/foto.jfif', 'foto.jfif');
 
     if(!$mail->send()){

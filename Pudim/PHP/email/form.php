@@ -27,7 +27,7 @@
                     <textarea name='corpo' id='corpo' cols='30' rows='10'></textarea>
                 </div>
                 <div>
-                    <input type="submit">
+                    <input type="submit" value="Enviar">
                 </div>
             </form>
         </main>

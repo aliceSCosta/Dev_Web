@@ -8,7 +8,7 @@
     $foto = basename($_FILES['foto']['name']);
 
     if(move_uploaded_file($_FILES['foto']['tmp_name'], $foto)){
-        echo "$foto movida com sucesso";
+        header('Location: lista.php');
     }else{
         echo "Não foi possível salvar";
     }

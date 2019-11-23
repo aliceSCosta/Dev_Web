@@ -2,5 +2,5 @@
 
     include('conn.php');
 
-    $sql = 'SELECT * FROM pessoas';
+    $sql = "SELECT nome, email, foto FROM pessoas";
     $resultado = $conn->query($sql);

@@ -1,3 +1,6 @@
+<?php
+    include('selectlista.php')
+?>
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
@@ -21,9 +24,14 @@
                 </tr>
             </thead>
             <tbody>
-                
+                <?php    
+                    include('linhas.php');
+                ?>
             </tbody>
         </table>
+    </div>
+    <div action="selectemail.php">
+        <a href="formemail.php"><button type='buttom'>Email para todos</button></a>
     </div>
     
 </body>
