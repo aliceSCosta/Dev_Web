@@ -30,9 +30,12 @@
             </tbody>
         </table>
     </div>
-    <div action="selectemail.php">
-        <a href="formemail.php"><button type='buttom'>Email para todos</button></a>
-    </div>
+
+    <a href="formemail.php"><button type='buttom' action="selectemail.php">Email para todos</button></a>
+    
+    <nav>
+        <a href="conteudo.php">Posts</a>
+    </nav>
     
 </body>
 </html>

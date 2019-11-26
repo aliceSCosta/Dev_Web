@@ -1,9 +1,3 @@
-<?php
-
-    include('conn.php');
-
-?>
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
