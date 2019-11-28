@@ -20,7 +20,10 @@
     $mail->setFrom('ti33senacsc@gmail.com');
     $mail->addReplyTo('ti33senacsc@gmail.com');
     $mail->addAddress($email);
-    $mail->addBCC($bcc);
+
+    for($i=0; $i>0; $i++){
+       $i=$mail->addBCC($bcc);
+    }
 
     $mail->isHTML(true);
     $mail->Subject($assunto);
