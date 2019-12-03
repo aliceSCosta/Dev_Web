@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <script type="text/javaScript">
+        function mudaTamanho() {
+            var tamanho = document.getElementById("tamanho").value;
+            var paragrafo = document.getElementsByTagName("p");
+            for (var i = 0; i < paragrafo.length; i++) {
+                paragrafo[i].style.fontSize = tamanho;
+            }
+        }
+    </script>
+    <p>
+        <label for="tamanho">Tamanho da fonte</label>
+        <select id="tamanho" onchange="mudaTamanho()">
+            <option value="8px">8 px</option>
+            <option value="10px">10 px</option>
+            <option value="12px">12 px</option>
+            <option value="14px">14 px</option>
+            <option value="16px">16 px</option>
+            <option value="18px">18 px</option>
+        </select>
+    </p>
+    <h1>Anvisa libera venda de produtos à base de cannabis em farmácias</h1>
+    <p>A Agência Nacional de Vigilância Sanitária (Anvisa) aprovou nesta terça-feira (3)</p> 
+    <p>a liberação da venda em farmácias no Brasil de produtos à base de cannabis para uso medicinal.</p> 
+    <p>A regulamentação foi aprovada por unanimidade e é temporária, com validade de três anos.</p>
+    <p> A norma passa a valer 90 dias após a sua publicação no "Diário Oficial da União".</p>
+</body>
+</html>

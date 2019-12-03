@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        function mudarCor(){
+            var cores = document.getElementById("cores").value;
+            var frutas = document.getElementsByTagName("ul");
+
+            for (var i = 0; i < frutas.length; i++) {
+                frutas[i].style.color = cores;
+                
+            }
+        }
+    </script>
+    <p>
+        <label for="cores"></label>
+        <input type="color" id="cores" onchange="mudarCor()" value="#ddd">
+    </p>
+    <ul>
+        <li>Banana</li>
+        <li>Limão</li>
+        <li>Maçã</li>
+        <li>Uva</li>
+        <li>Laranja</li>
+    </ul>
+</body>
+</html>
