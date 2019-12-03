@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script type="text/javaScript" src="comportamento.js"></script>
     <title>Document</title>
 </head>
 <body>
@@ -15,10 +16,13 @@
         <div>
             <label for="senha">Senha: </label>
             <input type="password" id="senha">
+            <button type="button" id="btnSenha" onclick="mostrarSenha('senha','btnSenha')">@</button>
         </div>
         <div>
             <label for="confirmar">Confirmação de senha: </label>
-            <input type="password" id="confirmar">
+            <input type="password" id="confirmar" onblur="compararCampos()">
+            <button type="button" id="btnConfirma" onclick="mostrarSenha('confirmar', 'btnConfirma')">@</button>
+            <label for="confirmar" id="erroSenha"></label>
         </div>
         <div>
             <label for="idade">Idade: </label>
