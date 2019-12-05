@@ -1,0 +1,109 @@
+{
+  "id": "2166d445-c221-4c7a-85f4-3615ba46d8b9",
+  "version": "2.0",
+  "name": "uc13web",
+  "url": "http://localhost:52330/Salmo/organizar/acessibilidade/formulario.html",
+  "tests": [{
+    "id": "8c36de55-24c6-44b0-aa33-ac651bd466ce",
+    "name": "teste com variaveis",
+    "commands": [{
+      "id": "60172ad1-6381-4419-9434-f40fe67f6403",
+      "comment": "",
+      "command": "open",
+      "target": "http://localhost:52330/Salmo/organizar/acessibilidade/formulario.html",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "1e65234a-67b1-4316-9b03-c26d37dbb520",
+      "comment": "",
+      "command": "click",
+      "target": "id=nome",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "3d75182c-5dc2-4ac8-869b-d04178db886f",
+      "comment": "",
+      "command": "type",
+      "target": "id=nome",
+      "targets": [],
+      "value": "Mario"
+    }, {
+      "id": "4594a09f-538f-465d-813d-0f531e60f031",
+      "comment": "",
+      "command": "storeValue",
+      "target": "id=nome",
+      "targets": [],
+      "value": "nome"
+    }, {
+      "id": "f1627da0-1584-4c99-b153-c679a7655717",
+      "comment": "",
+      "command": "assertValue",
+      "target": "id=nome",
+      "targets": [],
+      "value": "${nome}"
+    }]
+  }, {
+    "id": "46436aac-cf44-49cc-9ee6-eeb84afebcbe",
+    "name": "confirma senha erro test",
+    "commands": [{
+      "id": "653177d7-dfcb-4927-aff4-8ff38edc6d3f",
+      "comment": "",
+      "command": "open",
+      "target": "http://localhost:52330/Salmo/organizar/acessibilidade/formulario.html",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "3d46d4fe-71cd-4444-8cb8-60c2532ed07f",
+      "comment": "",
+      "command": "click",
+      "target": "id=senha",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "82f57ed1-008d-4fa7-921c-cbf4a1c2368d",
+      "comment": "",
+      "command": "type",
+      "target": "id=senha",
+      "targets": [],
+      "value": "1234"
+    }, {
+      "id": "559c5682-67b4-4a47-a9da-318c54b649ce",
+      "comment": "",
+      "command": "click",
+      "target": "id=confirmar",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ddd0a282-c95a-40bb-9834-1137fcad2cd2",
+      "comment": "",
+      "command": "type",
+      "target": "id=confirmar",
+      "targets": [],
+      "value": "1235"
+    }, {
+      "id": "042b2a81-afb9-48b0-8c34-39a22d34359a",
+      "comment": "",
+      "command": "click",
+      "target": "id=idade",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "3f90b4ca-b5c9-432a-96e2-256388267770",
+      "comment": "",
+      "command": "assertText",
+      "target": "id=erroSenha",
+      "targets": [],
+      "value": "Senhas não correspondem"
+    }]
+  }],
+  "suites": [{
+    "id": "b7a0dca1-6483-4e85-b405-0a39d6fb81c2",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": []
+  }],
+  "urls": ["file:///C:/xampp/htdocs/Dev_Web/Salmo/organizar/acessibilidade/formulario.html", "http://localhost:52330/Salmo/organizar/acessibilidade/formulario.html"],
+  "plugins": []
+}
