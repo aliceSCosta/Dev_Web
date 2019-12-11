@@ -3,11 +3,16 @@
 * {box-sizing:border-box}
 
 /* Slideshow container */
-.slideshow-container {
+.slideshow-container{
   max-width: 256px;
   position: relative;
-  margin: auto;
+  margin: 0px;
 }
+
+.slideshow-container ul{
+    padding: 0px;
+    margin: 0px;
+  }
 
 /* Hide the images by default */
 .mySlides {
@@ -44,13 +49,17 @@
   background-color: rgba(0,0,0,0.8);
 }
 
+.navegacao{
+    text-align: center;
+}
+
 /* Caption text */
 .text {
   color: #f2f2f2;
   font-size: 15px;
   padding: 8px 12px;
   position: absolute;
-  bottom: 8px;
+  bottom: 20px;
   width: 100%;
   text-align: center;
 }
